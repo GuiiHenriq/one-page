@@ -1,0 +1,693 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+/* RESET */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	list-style: none;
+}
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* ================ STYLE ================*/
+.header-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-container::after, .header-container::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header {
+	padding: 80px 0;
+	background: #87509c;
+	color: #f7f3ea;
+}
+
+.logo {
+	font-size: 2.25em;
+	color: #f7f3ea;
+	font-weight: bold;
+}
+
+.header-menu {
+	float: right;
+	margin-right: 10px;
+}
+
+.header-menu li {
+	display: inline-block;
+}
+
+.header-menu li a {
+	color: #f7f3ea;
+	display: block;
+	padding: 10px;
+	font-size: 1.125em;
+	text-transform: uppercase;
+}
+
+.header-menu li a:hover {
+	background: #643a79;
+	border-radius: 4px;
+}
+
+.header-banner {
+	padding-top: 80px;
+}
+
+.header-banner h1 {
+	text-align: center;
+	font-weight: normal;
+}
+
+.header-banner a {
+	display: block;
+	margin: 50px auto 0 auto;
+	background: #eb7d4b;
+	width: 290px;
+	color: #f7f3ea;
+	text-align: center;
+	padding: 15px 0;
+	border-radius: 4px;
+	border: 2px solid #eb7d4b;
+}
+
+.header-banner a:hover {
+	background: none;
+	border: 2px solid #eb7d4b;
+	font-weight: bold;
+}
+
+
+
+/* Serviços */
+.servicos-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.servicos-container::after, .servicos-container::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.servicos {
+	padding: 80px 0;
+	background: #17c2a4;
+	color: #fff;
+}
+
+.servicos h1 {
+	font-size: 2.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.servicos h1::after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #14a58c;
+	margin: 10px auto 20px auto;
+}
+
+.servicos p {
+	font-size: 1.125em;
+	text-align: center;
+}
+
+.servico-itens {
+	padding-top: 80px;
+}
+
+.servico-item {
+	width: 220px;
+	float: left;
+	margin: 0 10px 20px 10px;
+}
+
+.servico-item h2 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.servico-item img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/* Equipe */
+.equipe-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.equipe-container::after, .equipe-container::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.equipe {
+	padding: 80px 0;
+	background: #e7f1f8;
+	color: #3c4761;
+}
+
+.equipe h1 {
+	font-size: 2.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.equipe h1::after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #c8d9e5;
+	margin: 10px auto 20px auto;
+}
+
+.equipe p {
+	font-size: 1.125em;
+	text-align: center;
+}
+
+.equipe-infos {
+	padding-top: 80px;
+}
+
+.equipe-info {
+	float: left;
+	width: 220px;
+	margin: 0 10px 20px 10px;
+}
+
+.equipe-info h2, h3 {
+	text-align: center;
+	font-weight: normal;
+	margin: 10px 0;
+}
+
+.equipe-info h2::before {
+	content: "";
+	display: block;
+	width: 200px;
+	height: 200px;
+	background: #878787;
+	border-radius: 50%;
+	margin: 10px auto;
+}
+
+.equipe-info h3 {
+	color: #30bae7;
+	font-size: 0.875em;
+	font-weight: bold;
+}
+
+
+
+/* Habilidades */
+.skill-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skill-container::after, .skill-container::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.skill {
+	padding: 80px 0;
+	color: #3c4761;
+}
+
+.skill h1 {
+	font-size: 2.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.skill h1::after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #dfe8ed;
+	margin: 10px auto 20px auto;
+}
+
+.skill p {
+	font-size: 1.125em;
+	text-align: center;
+}
+
+.skill-itens {
+	padding-top: 80px;
+}
+
+.skill-item {
+	float: left;
+	width: 220px;
+	margin: 0 10px 20px 10px;
+}
+
+.skill-item h2 {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.skill-item img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+/* Portfolio */
+.portfolio-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.portfolio-container::after, .portfolio-container::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.portfolio {
+	padding: 80px 0;
+	background: #ffdd99;
+	color: #393939;
+}
+
+.portfolio h1 {
+	font-size: 2.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.portfolio h1::after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #e5c37f;
+	margin: 10px auto 20px auto;
+}
+
+.portfolio p {
+	font-size: 1.125em;
+	text-align: center;
+}
+
+.portfolio-nav {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.portfolio nav ul li {
+	display: inline-block;
+}
+
+.portfolio li a {
+	color: #393939;
+	background: #ebc985;
+	border-radius: 4px;
+	display: block;
+	width: 80px;
+	height: 45px;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.portfolio li:first-child a, .portfolio li a:hover {
+	background: #fff;
+}
+
+.portfolio-itens {
+	padding-top: 80px;
+}
+
+.portfolio-item {
+	float: left;
+	width: 440px;
+	margin: 0 20px 60px 10px;
+}
+
+.portfolio-item h2 {
+	text-transform: uppercase;
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.125em;
+}
+
+.portfolio-btn {
+	display: block;
+	margin: 20px auto;
+	background: #17c2a4;
+	width: 290px;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+	border-radius: 4px;
+	border: 2px solid #17c2a4;
+}
+
+.portfolio-btn:hover {
+	background: none;
+	color: #393939;
+	font-weight: bold;
+}
+
+
+
+/* Depoimentos */
+.depoimentos-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.depoimentos-container::after, .depoimentos-container::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.depoimentos {
+	padding: 80px 0;
+	background: #d74680;
+	color: #fff;
+}
+
+.depoimentos h1 {
+	font-size: 2.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.depoimentos h1::after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #b73c6d;
+	margin: 10px auto 20px auto;
+}
+
+.depoimentos p {
+	font-size: 1.125em;
+	text-align: center;
+}
+
+.depoimentos-itens {
+	padding-top: 80px;
+}
+
+.depoimentos-item {
+	float: left;
+	width: 440px;
+	margin: 0 10px 60px 10px;
+}
+
+.depoimentos-item img {
+	float: left;
+}
+
+.depoimentos-item p {
+	text-align: left;
+	margin-left: 130px;
+}
+
+.depoimentos-item h2 {
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.depoimentos-item span{
+	color: #ffdd99;
+}
+
+.depoimentos-item h2, .depoimentos-item span {
+	display: block;
+	margin-left: 130px;
+}
+
+
+
+/* Contato */
+.contato-container {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contato-container::after, .contato-container::before {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.contato {
+	padding: 80px 0;
+	background: #3c5499;
+	color: #fff;
+}
+
+.contato h1 {
+	font-size: 2.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.contato h1::after {
+	content: "";
+	display: block;
+	width: 80px;
+	height: 4px;
+	background: #273a71;
+	margin: 10px auto 20px auto;
+}
+
+.contato p {
+	font-size: 1.125em;
+	text-align: center;
+}
+
+.form {
+	margin: 0 auto;
+	display: block;
+	padding-top: 60px;
+}
+
+.form input {
+	font-family: 'Titillium Web', sans-serif;
+	display: inline;
+	float: left;
+	width: 48%;
+	margin-left: 38px;
+	font-size: 14px;
+	background: #273a71;
+	padding: 20px 30px;
+	margin-bottom: 20px;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+}
+
+.form input:first-child {
+	margin-left: 0;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+	color: #fff;
+}
+
+.form textarea {
+	font-family: 'Titillium Web', sans-serif;
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	background: #273a71;
+	padding: 20px 30px;
+	margin-bottom: 20px;
+	outline: none;
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+}
+
+.form button {
+	display: block;
+	margin: 50px auto 0 auto;
+	background: #30bae7;
+	width: 290px;
+	color: #f7f3ea;
+	text-align: center;
+	padding: 15px 0;
+	border-radius: 4px;
+	border: 2px solid #30bae7;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	cursor: pointer;
+}
+
+.form button:hover {
+	background: none;
+	font-weight: bold;
+}
+
+
+
+/* Footer */
+.footer-container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+}
+
+footer {
+	background: #344b8e;
+	padding: 30px 0;
+	border-top: 3px solid #273a71;
+}
+
+footer a {
+	color: #fff;
+	font-size: 1.50em;
+	font-weight: bold;
+	padding: 25px;
+	text-align: center;
+}
+
+footer a:hover {
+	color: #cdcdcd;
+}
+
+
+/* ================= RESPONSIVO ================= */
+
+/* Breakpoint Tablet */
+@media screen and (min-width: 740px) and (max-width: 980px) {
+	.servicos-container, .equipe-container, .skill-container, .portfolio-container, .depoimentos-container {
+		max-width: 720px;
+	}
+	.servico-item, .equipe-info, .skill-item, .portfolio-item, .depoimentos-item {
+		width: 330px;
+		margin-bottom: 60px;
+	}
+
+
+	.logo {
+		margin-left: 20px;
+	}
+
+
+	.form input {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+
+}
+
+
+/* Breakpoint Mobile */
+@media screen and (max-width: 739px) {
+	.servicos-container, .equipe-container, .skill-container, .portfolio-container, .depoimentos-container {
+		max-width: 300px;
+	}
+	.servico-item, .equipe-info, .skill-item, .portfolio-item, .depoimentos-item {
+		width: 300px;
+		margin: 0 auto 80px auto;
+	}
+
+
+	.header {
+		text-align: center;
+	}
+	a.logo {
+		float: none;
+		margin: 0 auto;
+	}
+	.header-menu {
+		float: none;
+		clear: both;
+	}
+	.header-menu li a {
+		background: #643a79;
+		border-radius: 4px;
+	}
+
+	.portfolio-nav {
+		display: none;
+	}
+
+
+	.depoimentos-item img {
+		display: none;
+	}
+	.depoimentos-item p {
+		margin: 0;
+		text-align: center;
+	}
+	.depoimentos-item h2, .depoimentos-item span {
+		padding: 0;
+		float: right;
+	}
+
+
+	.form input {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+}
+
+
+.portfolio-itens {
+	display: none;
+}
+
+.portfolio-itens.ativo {
+	display: block;
+}
