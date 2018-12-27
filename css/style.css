@@ -631,6 +631,14 @@ footer a:hover {
 
 }
 
+.btn-open {
+	display: none;
+}
+
+.btn-close {
+	display: none;
+}
+
 
 /* Breakpoint Mobile */
 @media screen and (max-width: 739px) {
@@ -654,9 +662,51 @@ footer a:hover {
 		float: none;
 		clear: both;
 	}
+	.header-menu ul {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: #f1f1f1;
+		width: 100%;
+		height: 100vh;
+	}
+	.header-menu li {
+		display: block;
+	}
 	.header-menu li a {
-		background: #643a79;
-		border-radius: 4px;
+		color: #000;
+	}
+	.header-menu li a:hover {
+		color: #fff;
+	}
+	.header-menu ul {
+		display: none;
+	}
+	.header-menu ul.ativo {
+		display: inline;
+	}
+	.btn-open {
+		display: inline;
+		border: none;
+		background: #eb7d4b;
+		color: #fff;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		border: 2px solid #eb7d4b;
+		cursor: pointer;
+	}
+	.btn-open:hover {
+		background: none;
+		border: 2px solid #eb7d4b;
+	}
+	.btn-close {
+		display: flex;
+		justify-content: flex-end;
+		background: none;
+		border: none;
+		margin-top: 10px;
+		cursor: pointer;
 	}
 
 	.portfolio-nav {
@@ -681,13 +731,4 @@ footer a:hover {
 		width: 100%;
 		margin: 0 0 20px 0;
 	}
-}
-
-
-.portfolio-itens {
-	display: none;
-}
-
-.portfolio-itens.ativo {
-	display: block;
 }
