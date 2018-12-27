@@ -1,5 +1,5 @@
 # One Page
-Site One Page Baseado no Design Flat
+Site One Page Baseado no Flat Design
 # Linguagens
 HTML 5<br>
 CSS 3<br>
