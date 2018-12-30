@@ -1,5 +1,5 @@
 # One Page
-Site One Page Baseado no Flat Design
+Um site totalmente One Page, utilizando o Flat Design. Este projeto é uma codificação de um Template Free!
 # Linguagens
 HTML 5<br>
 CSS 3<br>
